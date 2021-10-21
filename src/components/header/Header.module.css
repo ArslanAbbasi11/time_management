@@ -1,0 +1,26 @@
+header{
+    background-color: #5b9191;
+    padding: 10px 0 10px 0;
+}
+.header_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_inner figure{
+    cursor: pointer;
+    max-width: 200px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+.profile img{
+    max-width: 55px;
+}
+.profile h5{
+    font-size: 18px;
+    font-weight: 400;
+}

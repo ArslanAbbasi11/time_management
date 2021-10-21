@@ -1,0 +1,12 @@
+.logout_btn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: .5s ease-in;
+}
+.logout_btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}

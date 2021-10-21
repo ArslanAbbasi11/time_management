@@ -1,0 +1,22 @@
+.loader {
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    border-top: 10px dotted rgb(0, 187, 255);
+    border-bottom: 10px dotted rgb(0, 187, 255);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top:15% ;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

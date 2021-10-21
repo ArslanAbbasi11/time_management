@@ -1,0 +1,31 @@
+.red{
+    background-color: rgb(253 107 107)
+}
+.green{
+    background-color: rgb(118 215 118);
+}
+.filter{
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 30px;
+}
+.filter_input{
+    width: 34%;
+    font-size: 18px;
+    color: rgb(65, 62, 62);
+    border-radius: 10px;
+    border: 2px solid rgb(163, 161, 161);
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+ border: 2px solid #0f7a92;
+}
+.labl{
+    font-size: 18px;
+    color: #808080;
+    margin-left: 10px;
+    margin-right: 5px;
+}

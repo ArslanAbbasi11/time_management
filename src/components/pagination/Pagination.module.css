@@ -1,0 +1,57 @@
+.pg_btn{
+    background-color: transparent;
+    border: 1px solid gray;
+    font-size: 14px;
+    width: 45px;
+    height: 33px;
+    margin-top: 30px;
+    cursor: pointer;
+     transition: .5s ease;
+}
+.pg_btn:hover{ 
+    background-color: rgb(43, 242, 109);
+    color: white;
+    transform: scale(1.1);
+}
+.wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.dots{
+    font-size: 23px;
+    letter-spacing: 5px;
+}
+.move_btn{
+    margin: 0px 12px 0 12px;
+    background-color: transparent;
+    border: 1px solid gray;
+    font-size: 14px;
+    width: 78px;
+    height: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.move_btn:hover{ 
+    background-color: rgb(171, 191, 178);
+    color:#000000;
+
+}
+.current{
+    background-color: transparent;
+    font-size: 14px;
+    width: 45px;
+    height: 33px;
+    margin-top: 30px;
+    cursor: pointer;
+     transition: .5s ease;
+    border: 2px solid green;
+}
+.current:hover{ 
+    background-color: rgb(43, 242, 109);
+    color: white;
+    transform: scale(1.1);
+}

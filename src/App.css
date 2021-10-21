@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding:0; 
+}
+body{
+      margin:0;
+      padding:0;
+   }
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+a,a:hover{
+display: inline-block;
+text-decoration: none;
+}
+
+ul,ol{
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+body{
+  padding: 0;
+  margin: 0;
+}

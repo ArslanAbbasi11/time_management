@@ -1,0 +1,78 @@
+.wrapper{
+  position: relative;
+  padding: 10px 0px 50px 2px;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+  }
+  tr{
+ 
+   border: 2px solid #ffffff;
+   
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  
+  }
+  
+  
+  th {
+    background-color: #0f7a92;
+    color: white;
+    padding: 20px 0 20px 0;
+  }
+  .loginicon {
+    position: absolute;
+    width: 80px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+    height: 40px;
+    left: 85%;
+    top: 10px;
+    background:#2bc6ff;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+  .loginicon:hover{
+    color: white;
+  }
+  .del_btn{
+    background-color: #f7a592;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    transition: .5s ease;
+  }
+  .del_btn:hover{
+    background-color: #ed2f04;
+    border: 1px solid #ed2f04;
+    color: #ffffff;
+  
+  }
+  .head_row{
+    border:1px solid transparent;
+    border-radius: 40px;
+  }
+  .description{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+ 
+  }
+ 
